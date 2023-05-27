@@ -40,72 +40,133 @@ a {
     row-gap: 3rem;
 }
 
+.line {
+    border: 1px solid #005DF2;
+    margin-bottom: 2.9rem;
+}
+
 .logo {
     max-width: 17.5rem;
     object-fit: cover;
 }
 
-.head li a, .btn-block a {
-    padding: 1.25rem 3.25rem;
+.head li a {
+    padding: 0.3rem 3rem;
     background: #005DF2;
     color: #fff;
     border-radius: 15px;
-    font-size: 1.8rem;
+    font-size: 1.2rem;
     line-height: 2.25rem;
-    margin-left: 1rem;
+    margin-left: 3rem;
 }
 
-.content-application {
-    padding: 2.5rem 3.8rem;
+.head li input {
+    padding: 1rem 3rem;
+    background: #1D1D1D;
+    border: 1px solid #FFFFFF;
+    border-radius: 15px;
 }
 
-.blocks {
+.head li input::placeholder{
+    font-size: 1.2rem;
+    text-transform: uppercase;
+    color: rgba(255, 255, 255, 0.65);
+}
+
+.block-qaurs {
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
+}
+
+.block-list-btn {
+    padding: 1.5rem 3.9rem;
+    color: #fff;
+    margin-right: 10rem;
+}
+
+.block-list-btn ul {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    row-gap: 2.2rem;
+}
+
+.block-list-btn ul li {
+    font-size: 1.25rem;
+    line-height: 3.8rem;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    letter-spacing: 0.6px;
+    text-transform: uppercase;
+}
+
+.block-list-btn ul li a{
+    color: #fff;
+    margin-left: 2rem;
+}
+
+.qaurs-list{
+    border-left: 2px solid #005DF2;
+    margin-top: -6rem;
+    padding-left: 0.3rem;
+    padding-top: 5rem;
+}
+
+.qaurs-list li {
+    width: 53rem;
+    background: #1D1D1D;
+    border: 1px solid #FFFFFF;
+    border-radius: 15px;
+    padding: 0.5rem 3rem;
+    margin-bottom: 2rem;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
     justify-content: space-between;
     align-items: center;
-    row-gap: 3rem;
-}
-
-.application-head {
-    max-width: 45rem;
-    font-size: 2.2rem;
-    line-height: 3.9rem;
-    letter-spacing: -0.5px;
     color: #fff;
 }
 
-.blocks {
-    margin-top: 2.5rem;
+.info {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
 }
 
-.spisok {
-    margin-bottom: 2rem;
+.info span {
+    font-size: 1.3rem;
+    line-height: 3.7rem;
 }
 
-.block-text {
-    max-width: 47rem;
+.name-avtor {
+    margin-left: 0.8rem;
+}
+
+.text-avtor {
+    margin-left: 1.4rem;
+}
+
+.btn-of-info a {
+    padding: 0.4rem 2rem;
+    margin-left: 2rem;
+    font-size: 1rem;
+}
+
+.yes {
+    background: #005DF2;
     color: #fff;
-    font-size: 1.4rem;
-    line-height: 2rem;
+    border-radius: 15px;
 }
 
-.block-applicat2{
-    position: relative;
-    max-width: 32rem;
-}
-
-.gerl {
-    width: 100%;
-    top: 0px;
-    left: 0px;
-}
-
-.star {
-    position: absolute;
-    top: 10px;
-    right: 10px;
+.no {
+    background: #fff;
+    color: #000;
+    border-radius: 15px;
 }
 
 .btn-and-block {
