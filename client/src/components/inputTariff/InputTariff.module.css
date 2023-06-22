@@ -1,0 +1,79 @@
+.container_input {
+    max-width: 100%;
+    padding-bottom: 3rem;
+}
+
+.block_help{
+    width: 90rem;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+.block1_input, .block2_input, .block3_input {
+    max-width: 25rem;
+    margin: 0 auto;
+    padding: 1.7rem 4.8rem;
+    background: linear-gradient(92.37deg, #4ADFD2 29.38%, #4ADFD2 100.81%);
+    box-shadow: 0 4px 25px rgba(0, 0, 0, 0.2);
+    border-radius: 15px;
+}
+
+.head_input1, .head_input2{
+    font-weight: 700;
+    font-size: 1.2rem;
+    line-height: 3rem;
+    color: #fff;
+    margin-bottom: 1.5rem;
+}
+
+.inputs1, .input2 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 1rem;
+}
+
+.inputs1 input{
+    width: 23.6rem;
+    padding: 0.8rem 0;
+    padding-left: 1.6rem;
+    margin-right: 1.2rem;
+    border-radius: 5px;
+    border: 1px solid #fff;
+}
+
+.inputs1 input::placeholder{
+    font-size: 1.1rem;
+    line-height: 1.7rem;
+    color: #263057;
+
+}
+
+.inputs1 .call, .input2 a, .btn_company a, .block_btn a{
+    padding: 0.7rem 4rem;
+    background: #3FA79E;
+    border: 1px solid #3FA79E;
+    border-radius: 60px;
+    color: #fff;
+    font-size: 18px;
+    line-height: 1.6rem;
+}
+
+.input2 a {
+    padding: 0.7rem 2rem;
+}
+
+.inputs1 a {
+    padding: 1rem 3rem;
+}
+
+.input2 input{
+    width: 23.6rem;
+    margin: 0 1.2rem;
+    padding-left: 1rem;
+    border-radius: 5px;
+    border: 1px solid #fff;
+}

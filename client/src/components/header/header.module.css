@@ -1,0 +1,49 @@
+.container {
+    max-width: 90rem;
+    margin: 0 auto;
+}
+
+.content-head {
+    padding: 3.8rem;
+}
+
+.head  {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content:space-between;
+    align-items: center;
+    row-gap: 3rem;
+}
+
+.logo {
+    max-width: 17.5rem;
+    object-fit: cover;
+    margin: 20px 0;
+}
+.head li p {
+    font-family: sans-serif;
+    padding: 10px;
+    color: #005df1;
+    border-radius: 10px;
+    border: none;
+    font-size: 1.5rem;
+    margin-left: 1rem;
+}
+.head li a,
+.btn_block a,
+.btn_nav {
+    font-family: sans-serif;
+    padding: 10px;
+    background: #005DF2;
+    color: #fff;
+    border-radius: 10px;
+    border: none;
+    font-size: 1rem;
+    margin-left: 1rem;
+}
+
+.head li {
+    display: flex;
+    align-items: center;
+}

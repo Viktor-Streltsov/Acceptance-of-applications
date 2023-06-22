@@ -1,0 +1,124 @@
+.container_inet {
+    max-width: 100%;
+    background: #4FD1C5;
+    padding: 2.7rem 6.25rem;
+}
+
+.ander_block_inet {
+    max-width: 90rem;
+    height: 30rem;
+    margin: 0 auto;
+    background: #FFFFFF;
+    box-shadow: 0 64px 194px rgba(0, 0, 0, 0.1);
+    border-radius: 15px;
+    overflow: hidden;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: flex-start;
+    align-items: center;
+    clip-path: polygon(0 0, 100% 0, 94% 65%, 60% 79%, 51% 100%, 44% 80%, 2% 71%);
+}
+
+.block_title {
+    padding-left: 3.8rem;
+    width: 35rem;
+}
+
+.block_title h1 {
+    font-family: 'Inter', sans_serif;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    font-weight: 400;
+    font-size: 3.8rem;
+    line-height: 3.3rem;
+    color: #253058;
+    margin-bottom: 1.75rem;
+}
+
+.block_title p {
+    font-weight: 400;
+    font-size: 3rem;
+    line-height: 3.3rem;
+    color: #253058;
+    margin-bottom: 1.75rem;
+}
+
+.block_title .btn_nav {
+    margin-top: 1.75rem;
+    padding: 0.6rem 1.6rem;
+    font-weight: 700;
+    font-size: 1.25rem;
+    line-height: 1.8rem;
+    text-align: center;
+    color: #fff;
+    background: #3FA79E;
+    border: 1px solid #6984F0;
+    box-shadow: 10px 10px 28px rgba(105, 132, 240, 0.2);
+    border-radius: 30px;
+}
+
+.block_img {
+    position: relative;
+    min-width: 53rem;
+    min-height: 31rem;
+}
+
+.earth, .ellipse, .tv, .wifi, .vec1, .vec2, .vec3, .vec4, .what {
+    position: absolute;
+}
+
+.vec4 {
+    z-index: 0;
+    top: 0;
+    right: 0;
+}
+
+.earth {
+    z-index: 4;
+    top: 135px;
+    right: 200px;
+}
+
+.vec1 {
+    z-index: 1;
+    top: -15px;
+    left: 380px;
+}
+
+.vec2 {
+    z-index: 3;
+    top: 33px;
+    left: 343px;
+}
+
+.vec3 {
+    z-index: 2;
+    top: 0;
+    left: 325px;
+}
+
+.wifi {
+    z-index: 5;
+    top: 100px;
+    left: 395px;
+}
+
+.tv {
+    z-index: 6;
+    top: 200px;
+    right: 100px;
+}
+
+.ellipse {
+    z-index: 7;
+    top: 105px;
+    left: 455px;
+}
+
+.what {
+    z-index: 8;
+    top: 300px;
+    right: 100px;
+}
