@@ -1,0 +1,70 @@
+.cart_tariff_content_li {
+    width: 13rem;
+    display: flex;
+    flex-direction: column;
+    padding: 1rem 2.25rem;
+    border-radius: 30%;
+    color: #263057;
+    background: #fff;
+    transition: background 0.5s;
+    margin-bottom: 4rem;
+    position: relative;
+}
+
+.cart_tariff_content_li h3 {
+    font-weight: 700;
+    font-size: 1.9rem;
+    line-height: 2.75rem;
+    margin: 10px 0;
+}
+
+.cart_tariff_content_li p {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    column-gap: 0.5rem;
+    font-weight: 700;
+    font-size: 1.5rem;
+    line-height: 2.2rem;
+    margin: 10px 0;
+}
+
+
+.more_tariff {
+    color: #263057;
+    cursor: pointer;
+}
+
+.line {
+    border: 1px solid rgba(38, 48, 87, 0.2);
+}
+
+.btn_go {
+    background: #3FA79E;
+    border: 1px solid #3FA79E;
+    box-shadow: 10px 10px 28px rgba(105, 132, 240, 0.2);
+    border-radius: 30px;
+    padding: 0.3rem 2.8rem;
+    color: #fff;
+    position: absolute;
+    bottom: -15px;
+    left: 3.125rem;
+    cursor: pointer;
+}
+
+.cart_tariff_content_li:hover div {
+    border: 1px solid #3FA79E;
+}
+
+.cart_tariff_content_li:hover a {
+    display: flex;
+    flex-direction: row;
+    column-gap: 0.4rem;
+    align-items: center;
+    color: #fff;
+}
+
+.cart_tariff_content_li:hover {
+    color: #fff;
+    background: #4ADFD2;
+}
